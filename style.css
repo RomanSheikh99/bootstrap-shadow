@@ -1,0 +1,162 @@
+.header {
+    background: #0B2239;
+}
+
+.header h1 {
+    color: #fff;
+    font-size: 46px;
+    text-shadow: 0px 0px 3px #fff;
+}
+
+.header ul {
+    list-style: none;
+    text-align: right;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 16px;
+}
+
+.header ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: arial;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.banner {
+    background: url(img/bg.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+}
+
+.banner h1 {
+    color: #4285F4;
+    margin-top: 100px;
+    font-size: 80px;
+    text-transform: capitalize;
+}
+
+.banner p {
+    margin-bottom: 100px;
+    font-size: 30px;
+    color: #FBBC05;
+}
+
+.about {
+    text-align: center;
+    color: #000;
+}
+
+.about h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-top: 80px;
+}
+
+.about p {
+    padding: 0px 120px;
+    line-height: 2;
+    word-spacing: 5px;
+    font-size: 18px;
+    color: #333;
+}
+
+.services {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.text-box{
+    box-shadow: 2px 6px 6px 0px #666;
+    transition: 1s;
+}
+
+.services i {
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+.services p {;padding: 0px 40px;}
+
+.services h2 {
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.text-box:hover{
+    background: #666;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transform: rotateY(180deg);
+}
+
+.news-img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+.news-img img {
+    width: 160px;
+    height: 160px;
+    margin: 20px;
+}
+
+.news-section {
+    margin-top: 80px;
+}
+
+.news {
+    text-align: justify;
+    line-height: 1.6;
+    width: 720px;
+    padding: 10px;
+}
+
+.news-box {
+    box-shadow: 1px 2px 5px 0px #999;
+    border-radius: 5px;
+}
+
+.news-section h2 {
+    text-transform: capitalize;
+    font-size: 40px;
+}
+
+.news-section b {
+    display: block;
+    color: #555;
+    line-height: 2;
+    border-bottom: 1px solid #999;
+}
+
+.foter {
+    margin-top: 80px;
+    background: #333;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+.foter span {
+    text-transform: capitalize;
+}
+
+.foter i {
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 26px;
+}
+
+i.fas.fa-copyright {
+    margin-right: 5px;
+}
